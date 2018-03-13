@@ -130,16 +130,10 @@ public class LLIndexList<E> implements IndexList<E> {
 
 	@Override
 	public <T1> T1[] toArray(T1[] array) {
-		
-		if (array.length < size())
-		    return (T1[]) Arrays.copyOf(internalLL, size(), array.getClass());
-			System.arraycopy(internalLL, 0, array, 0, size());
-			if (array.length > size())
-				for(int i=size();i<array.length;i++) {
-					array[i]= null;
-				}
-			return array;
+		// TODO Auto-generated method stub
+		return null;
 	}
+
 	
 
 }
