@@ -24,6 +24,10 @@ public class SLList<E> extends AbstractSLList<E> {
 		head = (SNode<E>) nuevo; 
 		length++; 
 	}
+	
+	public void addLNode(E e) {
+		
+	}
 
 	public void addLastNode(Node<E> nuevo) { 
 		SNode<E> sNuevo = (SNode<E>) nuevo; 
